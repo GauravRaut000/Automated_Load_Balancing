@@ -129,7 +129,7 @@ app.layout = html.Div([
     
     dcc.Graph(id='forecast_price',
           
-              figure=px.line(data,
+              figure=px.scatter(data,
                          x='Time [hour]',
                          y='Price [Euro/kWh]',
                          title='Electricity price forecast from January_2021 to October_2021 (Spain)',
